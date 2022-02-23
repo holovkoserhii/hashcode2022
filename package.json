@@ -1,0 +1,19 @@
+{
+  "name": "hashcode2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch \"src/**\" --ext \"ts,json\" --exec \"ts-node src/index.ts\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
