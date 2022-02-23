@@ -1,4 +1,5 @@
 const fs = require('fs');
+// const {myFunction} = require('./sasha');
 
 const files = {
     a: {
@@ -31,4 +32,5 @@ const file = fs.readFileSync(files.a.input, 'utf-8');
 
 const a: string = 'some string';
 console.log(file);
+// console.log(myFunction());
 fs.writeFileSync(files.a.output, [1, 2, 3, 4].join('\n'));
